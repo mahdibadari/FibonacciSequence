@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "iXD3+oBY5AUnBZ8TFwmZrR3L08nnZIxb4P5RNpVK56o=",
+  "Source": "FibonacciSequence",
+  "BasePath": "_content/FibonacciSequence",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
