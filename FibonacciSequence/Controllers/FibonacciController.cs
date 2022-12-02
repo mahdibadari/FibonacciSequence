@@ -17,14 +17,15 @@ namespace FibonacciSequence.Controllers
         private List<long> CalculateFibonacciSequenceUpToX(long index)
         {
             long absoluteIndex = Math.Abs(index);
+            //initiation for index 0
             List<long> fibonacciList = new List<long>
             {
                 0
             };
-            if (absoluteIndex > 1) fibonacciList.Add(1);
-            for (int i = 3; i < absoluteIndex + 1; i++)
+            if (absoluteIndex > 0) fibonacciList.Add(1);
+            for (int i = 2; i < absoluteIndex + 1; i++)
             {
-                fibonacciList.Add(fibonacciList[i - 2] + fibonacciList[i - 3]);
+                fibonacciList.Add(fibonacciList[i - 2] + fibonacciList[i - 1]);
             }
             if (index < 0)
             {
